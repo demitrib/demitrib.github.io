@@ -1,0 +1,655 @@
+/* GENERAL --------------------------------------- */
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik', 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.main_NavCenter {
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.main_Nav {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: .75em;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px; */
+    z-index: 99;
+    margin-bottom: 70px;
+}
+
+
+
+a.main_NavLinks:link, a.main_NavLinks:visited {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+a.main_NavLinks:hover, a.main_NavLinks:active {
+    color: gray;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid;
+    transition: .25s ease-in-out;
+}
+
+a.main_NavLogo:link, a.main_NavLogo:visited {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+a.mainNavLogo:hover, a.main_NavLogo:active {
+    color: gray;
+    text-decoration: none;
+    display: inline-block;
+    transition: .25s ease-in-out;
+}
+
+#signature {
+    width: 125px;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+}
+
+a.buttonLink:link, a.buttonLink:visited {
+    /* font-family: 'Rubik', 'Arial', sans-serif; */
+    font-weight: 500;
+    border: 3px solid;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+a.buttonLink:hover, a.buttonLink:active {
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid;
+    text-decoration: none;
+}
+
+
+/* END NAV STUFF -------------------------------- */
+
+.mainH1 {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.mainH2 {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 1.5em;
+    font-weight: 100;
+    color: ;
+    text-transform: ;
+    margin-top: 1.5em;
+}
+
+.mainText {
+    font-family: 'Rubik', 'Georgia', sans-serif;
+    font-size: 1.4em;
+    margin-top: 20px;
+    width: 75%;
+    line-height: 1.5;
+}
+/*
+.mainSpace {
+    margin: 160px;
+}
+*/
+
+.bg-img {
+    min-height: 100%;
+    min-width: 1600px;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    
+    position: fixed;
+    bottom: -10px;
+    top: 0;
+    left: 0;
+    z-index: -999;
+}
+
+body {
+    background-color: black;
+    overflow: visible;
+}
+
+/* HOME PAGE ------------------------------------- */
+
+#home_Body {
+    background-image: url('_assets/_media/home_bg_small.jpg');
+    background-repeat: round;
+    background-attachment: fixed;
+    background-size: 100vh;
+    background-color: whitesmoke;
+}
+
+#home_Box {
+    background-color: white;
+    opacity: 0.8;
+    width: 600px;
+    color: black;
+    margin: 45px 0px 0px 45px;
+    padding: 30px 20px 30px 20px;
+}
+
+#home_BoxTitle {
+    opacity: 1.0;
+}
+
+#home_Title {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 5em;
+    opacity: 1;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    padding-left: 25px;
+}
+
+#home_Description {
+    font-family: 'Rubik', 'Georgia', serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0px;
+    padding-left: 30px;
+    line-height: 1.3;
+}
+
+#home_Nav {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding-top: 25px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+a.home_NavLinks:link, a.home_NavLinks:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a.home_NavLinks:hover, a.home_NavLinks:active {
+    color: gray;
+    text-decoration: none;
+    transition: .25s ease-in-out;
+}
+
+/* END HOME PAGE ------------------------------------------------------------ */
+
+/* ABOUT PAGE ------------------------------------------------------------ */
+
+#about_Body {
+    background-image: url(_assets/_media/about_bg.jpg);
+    background-repeat: none;
+    background-size: ;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+#about_TextArea {
+    position: static;
+    bottom: 0;
+    top: 0;
+    margin-left: 21%;
+    width: 70%;
+    /*min-width: 1000px;
+    max-width: 1000px;*/
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: .95;
+    z-index: -99;
+    height: 100%;
+}
+
+#about_Text {
+    /*margin-left: 300px;*/
+    font-size: 75%;
+    width: 90%;
+    margin: ;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 0px;
+    
+    z-index: 98;
+    position: relative;
+    background-image: url(_assets/_media/demitri.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-origin: 0px 0px;
+    
+}
+
+
+
+#about_NavLine {
+    border-bottom: 1px solid;
+}
+
+a.mainLink:link, a.mainLink:visited {
+    color: black;
+    /* font-family: 'Montserrat', 'Arial', sans-serif; */
+    font-weight: 500;
+    text-transform: ;
+    text-decoration: none;
+}
+
+a.mainLink:hover, a.mainLink:active {
+    color: gray;
+    text-decoration: none;
+    transition: .25s ease-in-out;
+}
+
+#demitri_pic {
+    background-image: url('_assets/_media/demitri.pn');
+    float: right;
+    padding-top: 25px;
+    width: 23%;
+   
+}
+
+
+
+/* END ABOUT PAGE ------------------------------------------------------------ */
+
+/* WORK PAGE ------------------------------------------------------------ */
+
+#work_Body {
+    background-image: url();
+    background-repeat: round;
+    background-size: 100%;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+#work_TextArea {
+    position: ;
+    bottom: 0;
+    top: 0;
+    margin-left: 21%;
+    width: 70%;
+    height: 100%;
+    /*min-width: 1000px;
+    max-width: 1000px;*/
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: .95;
+    z-index: -99;
+}
+
+#work_Text {
+    margin-left: %;
+    font-size: 75%;
+    width: 95%;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 98;
+    overflow: auto;
+}
+
+#work_NavLine {
+    border-bottom: 1px solid;
+}
+
+
+a.work_projectLinks:link, a.work_projectLinks:visited {
+    color: black;
+    background-color: black;
+    text-decoration: none;
+    background-color: black;
+}
+
+a.work_projectLinks:hover, a.work_projectLinks:active {
+    color: dimgrey;
+    background-color: black;
+    opacity: 1;
+    text-decoration: none;
+    transition: .25s ease-in-out;
+}
+
+.work_leftColumn {
+    width: 45%;
+    float: left;
+    overflow: auto;
+}
+
+.work_rightColumn {
+    width: 45%;
+    float: right;
+    overflow: auto;
+}
+
+.work_leftSection {
+    font-family;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    float: left;
+
+}
+
+.work_rightSection {
+    font-family;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+h3 {
+    font-family: "Rubik", "Montserrat", "Arial", sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: "Montserrat", "Rubik", "Arial", sans-serif;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.tenet {
+    font-family: "Rubik", "Montserrat", "Arial", sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+/* -------------------------------------------- */
+
+.work_hellcta {
+    background-image: url(_assets/_media/hellcta.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 63%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    border-bottom: 5px solid;
+}
+
+/* -------------------------------------------- */
+
+
+
+/*
+.work_projectTitle {
+    font-family: "Rubik", "Montserrat", "Arial", sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    padding-bottom: .75em;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.work_projectImg {
+    width: 80%;
+    padding-left: 30px;
+}
+
+.work_projectDescription {
+    font-family: "Rubik", "Montserrat", "Arial", sans-serif;
+    padding-top: .3em;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+*/
+
+a.schoolLink:link, a.schoolLink:visited {
+    color: black;
+    /* font-family: 'Montserrat', 'Arial', sans-serif; */
+    font-weight: 500;
+    text-transform: ;
+    text-decoration: none;
+}
+
+a.schoolLink:hover, a.schoolLink:active {
+    color: gray;
+    text-decoration: none;
+    transition: .25s ease-in-out;
+}
+}
+
+
+/* SENIOR CAPSTONE PAGE ---------------------------------------------------------- */
+
+#senior_Body {
+    background-image: url();
+    background-repeat: round;
+    background-size: 100%;
+    background-color: whitesmoke;
+    background-attachment: fixed;
+}
+
+#senior_TextArea {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    margin-left: 21%;
+    width: 70%;
+    /*min-width: 1000px;
+    max-width: 1000px;*/
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: .95;
+    z-index: -99;
+}
+
+#senior_Text {
+    margin-left: 21%;
+    width: 70%;
+    margin-top: 75px;
+    padding-left: 40px;
+    padding-right: 30px;
+    z-index: 98;
+}
+
+#senior_NavLine {
+    border-bottom: 1px solid;
+}
+
+a.schoolLink:link, a.schoolLink:visited {
+    color: black;
+    /* font-family: 'Montserrat', 'Arial', sans-serif; */
+    font-weight: 500;
+    text-transform: ;
+    text-decoration: none;
+}
+
+a.schoolLink:hover, a.schoolLink:active {
+    color: gray;
+    text-decoration: none;
+    transition: .25s ease-in-out;
+}
+}
+
+
+/* STUDIO C PAGE ---------------------------------------------------------- */
+
+#studio_Body {
+    background-image: url();
+    background-repeat: round;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#studio_TextArea {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    margin-left: 21%;
+    width: 70%;
+    /*min-width: 1000px;
+    max-width: 1000px;*/
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: .95;
+    z-index: -99;
+}
+
+#studio_Text {
+    margin-left: 21%;
+    width: 70%;
+    margin-top: 75px;
+    padding-left: 40px;
+    padding-right: 30px;
+    z-index: 98;
+}
+
+#studio_NavLine {
+    border-bottom: 1px solid;
+}
+
+a.schoolLink:link, a.schoolLink:visited {
+    color: black;
+    /* font-family: 'Montserrat', 'Arial', sans-serif; */
+    font-weight: 500;
+    text-transform: ;
+    text-decoration: none;
+}
+
+a.schoolLink:hover, a.schoolLink:active {
+    color: gray;
+    text-decoration: none;
+    transition: .25s ease-in-out;
+}
+}
+
+
+/* CONTACT PAGE ---------------------------------------------------------- */
+
+#contact_Body {
+    background-image: url();
+    background-repeat: round;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#contact_TextArea {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    margin-left: 21%;
+    width: 70%;
+    /*min-width: 1000px;
+    max-width: 1000px;*/
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: .95;
+    z-index: -99;
+}
+
+#contact_Text {
+    margin-left: 21%;
+    width: 70%;
+    margin-top: 75px;
+    padding-left: 40px;
+    padding-right: 30px;
+    z-index: 98;
+}
+
+#contact_NavLine {
+    border-bottom: 1px solid;
+}
+
+a.schoolLink:link, a.schoolLink:visited {
+    color: black;
+    /* font-family: 'Montserrat', 'Arial', sans-serif; */
+    font-weight: 500;
+    text-transform: ;
+    text-decoration: none;
+}
+
+a.schoolLink:hover, a.schoolLink:active {
+    color: gray;
+    text-decoration: none;
+    transition: .25s ease-in-out;
+}
+
+.contactLink {
+    margin: 4em;
+
+}
+
+.socialMedia {
+    margin: 0 auto;
+    width: 542px;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+}
+
+#form {
+    margin: 2em, 0em, 5em, 0em;
+}
+
+.formItems {
+    margin-top: 1.5em;
+    
+}
+
+.form_button {
+    font-family: 'Rubik', 'Arial', sans-serif;
+    font-weight: 500;
+    border: 2px solid;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+#name,
+#mail,
+#msg {
+}
+
+/* --------------------------------------------------------------------------------- */
+
+footer, .copyright {
+    padding-left: 10px;
+    margin-top: 100px;
+}
